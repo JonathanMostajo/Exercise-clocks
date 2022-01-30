@@ -49,3 +49,11 @@
   display: flex;
   justify-content: center;
 }
+
+button{
+  border-radius: 5px;
+  padding: 7px 12px;
+  background-color: #141414;
+  color: rgb(221, 221, 221);
+  border: rgb(221, 221, 221) solid 1px;
+}
