@@ -4,7 +4,7 @@ import '../../App.css'
 const Countdown = () => {
   const [time, setTime] = useState("");
   useEffect(() => {
-    let countDownDate = new Date("Jun 21, 2022 00:00:00").getTime();
+    let countDownDate = new Date("Dec 20, 2022 00:00:00").getTime();
     let x = setInterval(() => {
       let now = new Date().getTime();
       let distance = countDownDate - now;
