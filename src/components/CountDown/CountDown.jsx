@@ -24,7 +24,7 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown">
-      <h2>Cuenta atrás cumpleaños Nuria!</h2>
+      <h2>Cumpleaños Nuria!</h2>
       <h2>{time}</h2>
     </div>
   );
